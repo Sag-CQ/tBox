@@ -468,7 +468,8 @@
 		"ext": "https://json02.heimuer.xyz/api.php/provide/vod/",
 		"flagable": 1,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "1"
 	},{
 		"key": "hongniuzy2",
 		"name": "红牛资源",
