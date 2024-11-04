@@ -183,19 +183,6 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
-		"key": "dylstv",
-		"name": "火车影视",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/soup/dylstv_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
 		"key": "qnmp4",
 		"name": "七味影视",
 		"type": 6,
@@ -205,19 +192,6 @@
 		"filterPlay": "",
 		"firstPlay": "",
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/soup/qnmp4_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
-		"key": "nkvlog",
-		"name": "耐看视频",
-		"type": 6,
-		"searchable": 0,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/soup/nkvlog_soup.json",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
@@ -248,32 +222,6 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
-		"key": "kykhd",
-		"name": "看一看影视",
-		"type": 3,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/xbiu/kykhd_xbiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
-		"key": "yjys05",
-		"name": "缘觉影视",
-		"type": 3,
-		"searchable": 0,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/xbiu/yjys05_xbiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "tos_hls3"
-	},{
 		"key": "vidhub",
 		"name": "视频库",
 		"type": 4,
@@ -283,19 +231,6 @@
 		"filterPlay": "",
 		"firstPlay": "",
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/xbiubiu/vidhub_xbiubiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},{
-		"key": "subaibai",
-		"name": "素白白影视",
-		"type": 4,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/xbiubiu/subaibai_xbiubiu.json",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
