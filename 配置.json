@@ -40,7 +40,7 @@
 		"keepPlayFileKeywords": ""
 	},{
 		"key": "labi",
-		"name": "蜡笔盘",
+		"name": "蜡笔网盘",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -48,6 +48,19 @@
 		"filterPlay": "",
 		"firstPlay": "夸克网盘,夸克网盘2",
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/labi.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},{
+		"key": "mihdr",
+		"name": "至臻网盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "夸克网盘,夸克网盘2",
+		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/mihdr.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
