@@ -651,7 +651,7 @@ async function fetchVideoFiles(url) {
       const files = await fetchFiles(pdir_fid);
       const videos = [];
       for (const file of files) {
-        if (file.format_type && file.format_type.startsWith("video/")) {
+        if (file.obj_category && file.obj_category.startsWith("video")) {
           videos.push({
             file_name: file.file_name,
             size: file.size,
