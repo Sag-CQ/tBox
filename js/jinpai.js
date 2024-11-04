@@ -256,31 +256,26 @@ async function homeContent() {
         }
       ],
       "1": [
-        {
+{
           "key": "type",
           "name": "类型",
           "value": [
-            { "n": "全部", "v": "" }
-          ]
-        },{
-          "key": "class",
-          "name": "剧情",
-          "value": [
-            { "n": "全部", "v": "" },
-            { "n": "动作", "v": "动作" },
-            { "n": "喜剧", "v": "喜剧" },
-            { "n": "爱情", "v": "爱情" },
-            { "n": "科幻", "v": "科幻" },
-            { "n": "恐怖", "v": "恐怖" },
-            { "n": "剧情", "v": "剧情" },
-            { "n": "战争", "v": "战争" },
-            { "n": "灾难", "v": "灾难" },
-            { "n": "奇幻", "v": "奇幻" },
-            { "n": "犯罪", "v": "犯罪" },
-            { "n": "冒险", "v": "冒险" },
-            { "n": "悬疑", "v": "悬疑" },
-            { "n": "惊悚", "v": "惊悚" },
-            { "n": "其他", "v": "其他" }
+            { "n": "全部", "v": "1" },
+            { "n": "动作", "v": "23" },
+            { "n": "喜剧", "v": "22" },
+            { "n": "爱情", "v": "26" },
+            { "n": "科幻", "v": "30" },
+            { "n": "恐怖", "v": "36" },
+            { "n": "剧情", "v": "37" },
+            { "n": "战争", "v": "25" },
+            { "n": "灾难", "v": "81" },
+            { "n": "奇幻", "v": "87" },
+            { "n": "犯罪", "v": "35" },
+            { "n": "冒险", "v": "31" },
+            { "n": "悬疑", "v": "27" },
+            { "n": "动画", "v": "33" },
+            { "n": "惊悚", "v": "34" },
+            { "n": "其他", "v": "43" }
           ]
         },
         {
@@ -484,18 +479,16 @@ let url = `https://www.cfkj86.com/vod/show/id/${tid}/type/{type}/class/{class}/a
 // 替换 URL 中的占位符
 if (extendObj) {
   for (const [key, value] of Object.entries(extendObj)) {
+
+    if (value) {
     const placeholder = `{${key}}`;
     const encodedValue = encodeURIComponent(value || ''); // 对 value 进行 URL 编码
-    if (value) {
       url = url.replace(new RegExp(placeholder, 'g'), encodedValue);
-    } else {
-      // 如果 value 为空，删除 URL 中的 /key/
-      url = url.replace(new RegExp(`/\\b${key}\\b/`, 'g'), '');
     }
   }
 }
 // 删除剩余的 {} 包围的占位符
-url = url.replace(/{(.*?)}/g, '');
+    url = url.replace(/\/[a-zA-Z]+\/\{[a-zA-Z]+\}/g, '');
     console.log(url);
     const response = await 访问网页(url);
     // 使用正则表达式匹配所有的电影项
