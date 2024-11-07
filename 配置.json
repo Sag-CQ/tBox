@@ -38,7 +38,8 @@
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/wogg.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},{
 		"key": "mogg",
 		"name": "木偶哥哥",
@@ -51,7 +52,8 @@
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/mogg.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},{
 		"key": "labi",
 		"name": "蜡笔网盘",
@@ -64,7 +66,8 @@
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/labi.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},{
 		"key": "mihdr",
 		"name": "至臻网盘",
@@ -77,7 +80,8 @@
 		"ext": "https://ghp.ci/raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/mihdr.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},{
 		"key": "555dy",
 		"name": "555电影",
