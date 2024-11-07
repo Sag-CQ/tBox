@@ -13,6 +13,20 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},{
+		"key": "czzyzl",
+		"name": "厂长资源(直链)",
+		"type": 5,
+		"searchable": 0,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/czzy.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "1"
+	},{
 		"key": "wogg",
 		"name": "玩偶哥哥",
 		"type": 5,
@@ -24,7 +38,8 @@
 		"ext": "https://raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/wogg.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},{
 		"key": "mogg",
 		"name": "木偶哥哥",
@@ -37,7 +52,8 @@
 		"ext": "https://raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/mogg.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},{
 		"key": "labi",
 		"name": "蜡笔网盘",
@@ -50,7 +66,8 @@
 		"ext": "https://raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/labi.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},{
 		"key": "mihdr",
 		"name": "至臻网盘",
@@ -63,7 +80,8 @@
 		"ext": "https://raw.githubusercontent.com/tBox2010/tBox/refs/heads/main/js/mihdr.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},{
 		"key": "555dy",
 		"name": "555电影",
