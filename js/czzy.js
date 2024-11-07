@@ -1,3 +1,4 @@
+//该js代码需在1.0.3以上版本运行
 class VideoClass {
     constructor() {
         // 当前分类的链接
